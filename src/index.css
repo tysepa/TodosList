@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    margin: 3rem;
+    background-color: #27251b;
+}
+h1{
+    color: #fff;
+}
+h2{
+    color: #c98912;
+    float: left;
+    margin-top: 0.2rem;
+}
+label{
+    color:#fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    outline: none;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+}
+input{
+    padding: 4px 2px 4px 1px;
+    border-radius: 10px;
+    width: 140px;
+    background-color: white;
+    color: black;
+    border-color: #FF8C00;
+    outline: none;
+    margin-top: 1rem;
+}
+
+.btn{
+    font: inherit;
+    float: right;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+    background: white ;
+    color:#800004;
+    border: 1px solid #800004;
+    margin: 0.3rem 0 1rem 2rem;
+}
+.bnt{
+    font: inherit;
+    float: right;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+    background: white ;
+    color:white;
+    border: 1px solid #FF8C00;
+    margin: 0.8rem 0 1rem 2rem;
+}
+.spt{
+    float: left;
+    margin-left: -4rem;
+    margin-top: 2.5rem;
+    color: #fff;
+}
+.btn-hd{
+    background:#c98912;
+    border: 1px solid #c98912;
+}
+.butn{
+    font: inherit;
+    float: right;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border-radius: 50px;
+    background: #800004;
+    color: white;
+    border: 1px solid #800004;
+    margin: 1.5rem 5.5rem 1rem 1rem;
+}
+.btn:hover, .butn:hover{
+    background: #9c1458;
+    color: #fff;
+    border-color: #9c1458;
+}
+.btn--alr{
+    background-color: white;
+    color: #07944dce;
+    border: 1px solid #13b162;
+}
+.btn--alr:hover{
+    background-color: #89d4af;
+    border: 1px solid #13b162;
+}
+.btn--alt{
+    background-color: transparent;
+    color: #800040;
+}
+.btn--alt:hover{
+    background-color: #f8dae9;
+}
+.card{
+    width: 575px;
+    height: 75px;
+    background: rgb(59, 58, 58);
+    border: 1px solid #333;
+    box-shadow: #333333;
+    border-radius: 5px;
+    padding: 0.1rem .5rem 3rem .5rem;
+}
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    background: rgba(77,77,77,0.7);
+    align-items: center;
+    justify-content: center;
+}
+.modalwaper{
+    position: absolute;
+    width:500px;
+    max-width: 90%;
+    height: 95px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background: #27251b;
+    transition: all 0.4s;
+}
+span{
+    color: #c98912;
+    margin: 0  12rem;
+    text-align: center;
+}
+.part{
+    width: 575px;
+    height: 75px;
+    background: rgb(59, 58, 58);
+    border: 1px solid #333;
+    box-shadow: #333333;
+    border-radius: 5px;
+    padding: 0.1rem .5rem 3rem .5rem;
+    margin-bottom: 1rem;
+}
