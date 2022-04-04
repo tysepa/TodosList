@@ -19,9 +19,7 @@ function Todo(props) {
        <button className="btn btn--alr" >Complete</button>
       </div>
       {modalIsOpen && <Modal /> }
-      {modalIsOpen && <Backdrop onCancel={closeModalHandler}/> }
-     
-      
+      {modalIsOpen && <Backdrop onCancel={closeModalHandler}/> } 
     </div>
   );
 }
