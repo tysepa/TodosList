@@ -1,5 +1,5 @@
 function Backdrop(props){
-    return <div className='Backdrop' onClick={props.onCancel}/>
+    return <div className='backdrop' onClick={props.onCancel} />
 
 }
 

@@ -108,7 +108,7 @@ input{
     border-radius: 5px;
     padding: 0.1rem .5rem 3rem .5rem;
 }
-.modal{
+.backdrop{
     position: absolute;
     top: 0;
     bottom: 0;
@@ -116,6 +116,17 @@ input{
     left: 0;
     display: flex;
     background: rgba(77,77,77,0.7);
+    align-items: center;
+    justify-content: center;
+}
+.modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    /* background: rgba(77,77,77,0.7); */
     align-items: center;
     justify-content: center;
 }
@@ -128,6 +139,7 @@ input{
     border-radius: 5px;
     background: #27251b;
     transition: all 0.4s;
+    z-index: 1;
 }
 span{
     color: #c98912;
